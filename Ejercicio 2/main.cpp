@@ -18,7 +18,7 @@ int main(){
     cout << "Elemento en la cima: " << decimalStack.top() << endl;
     decimalStack.pop();
 
-    cout << "Nuevo elemento despues del pop: " << decimalStack.top() << endl;
+    cout << "Nuevo elemento en la cima despues del pop: " << decimalStack.top() << endl;
 
     return 0;
 
