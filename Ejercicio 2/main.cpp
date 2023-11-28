@@ -10,5 +10,4 @@ int main(){
         cout << decimalList.front() << endl;
         decimalList.pop_front();
     }
-
 }
