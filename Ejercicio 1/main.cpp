@@ -3,6 +3,8 @@
 #include <vector>
 using namespace std;
 int main(){
+    cout << "Nombres" << endl;
+
     vector<string> nombres;
 
     nombres.push_back("Juan");
@@ -15,6 +17,8 @@ int main(){
     for(it = nombres.begin(); it != nombres.end(); it++){
         cout << *it << endl;
     }
+    cout << "Numeros" << endl;
+
     vector<int> numeros;
 
     numeros.push_back(1);
