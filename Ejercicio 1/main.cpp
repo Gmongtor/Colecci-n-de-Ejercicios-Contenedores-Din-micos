@@ -15,4 +15,10 @@ int main(){
     for(it = nombres.begin(); it != nombres.end(); it++){
         cout << *it << endl;
     }
+    vector<int> numeros;
+    numeros.push_back(1);
+    numeros.push_back(2);
+    numeros.push_back(3);
+    numeros.push_back(4);
+    numeros.push_back(5);
 }
