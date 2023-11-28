@@ -10,4 +10,16 @@ int main(){
         cout << decimalList.front() << endl;
         decimalList.pop_front();
     }
+
+    decimalStack.push(5.5);
+    decimalStack.push(6.6);
+    decimalStack.push(7.7);
+
+    cout << "Elemento en la cima: " << decimalStack.top() << endl;
+    decimalStack.pop();
+
+    cout << "Nuevo elemento despues del pop: " << decimalStack.top() << endl;
+
+    return 0;
+
 }
