@@ -16,9 +16,15 @@ int main(){
         cout << *it << endl;
     }
     vector<int> numeros;
+
     numeros.push_back(1);
     numeros.push_back(2);
     numeros.push_back(3);
     numeros.push_back(4);
     numeros.push_back(5);
+
+    vector<int>::iterator it2;
+    for(it2 = numeros.begin(); it2 != numeros.end(); it2++){
+        cout << *it2 << endl;
+    }
 }
