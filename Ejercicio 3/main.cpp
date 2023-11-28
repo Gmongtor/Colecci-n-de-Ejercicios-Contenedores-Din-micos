@@ -10,5 +10,8 @@ int main(){
         cout << v[i] << " ";
     }
     cout << endl;
-
+auto maxElement = max_element(v.begin(), v.end());
+cout << "Elemento maximo: " << *maxElement << endl;
+auto minElement = min_element(v.begin(), v.end());
+cout << "Elemento minimo: " << *minElement << endl;
 }
