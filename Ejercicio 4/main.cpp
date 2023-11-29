@@ -13,10 +13,33 @@ int main(){
     valarray<double> logaritmo = log(valores);
     valarray<double> exponencial = exp(valores);
 
+    cout << "Suma +10: ";
+    for(double v : suma) cout << v << " ";
+    cout << endl;
 
+    cout << "Resta -10: ";
+    for(double v : resta) cout << v << " ";
+    cout << endl;
 
+    cout << "Multiplicacion *10: ";
+    for(double v : multiplicacion) cout << v << " ";
+    cout << endl;
 
+    cout << "Division /10: ";
+    for(double v : division) cout << v << " ";
+    cout << endl;
 
+    cout << "Potencia ^2: ";
+    for(double v : potencia) cout << v << " ";
+    cout << endl;
 
+    cout << "Logaritmo: ";
+    for(double v : logaritmo) cout << v << " ";
+    cout << endl;
 
+    cout << "Exponencial: ";
+    for(double v : exponencial) cout << v << " ";
+    cout << endl;
+
+    return 0;
 }
