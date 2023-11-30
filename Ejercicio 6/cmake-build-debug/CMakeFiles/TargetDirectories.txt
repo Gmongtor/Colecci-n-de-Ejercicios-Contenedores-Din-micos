@@ -1,0 +1,2 @@
+C:/Users/monge/Documents/GitHub/Colecci-n-de-Ejercicios-Contenedores-Din-micos/Ejercicio 6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/monge/Documents/GitHub/Colecci-n-de-Ejercicios-Contenedores-Din-micos/Ejercicio 6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
